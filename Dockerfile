@@ -1,4 +1,4 @@
-FROM public.ecr.aws/nginx/nginx:stable-alpine3.19
+FROM nginx:stable-alpine3.21-perl
 
 RUN apk update && \
     apk upgrade --no-cache
