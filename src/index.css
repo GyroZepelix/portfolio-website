@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 20 14.3% 4.1%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14.3% 4.1%;
+    --primary: 16 100% 50%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 30 40% 96%;
+    --secondary-foreground: 20 14.3% 4.1%;
+    --muted: 30 40% 96%;
+    --muted-foreground: 25 5.3% 44.7%;
+    --accent: 30 40% 96%;
+    --accent-foreground: 20 14.3% 4.1%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 30 31.8% 91.4%;
+    --input: 30 31.8% 91.4%;
+    --ring: 16 100% 50%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 30 40% 98%;
+    --card: 20 14.3% 4.1%;
+    --card-foreground: 30 40% 98%;
+    --popover: 20 14.3% 4.1%;
+    --popover-foreground: 30 40% 98%;
+    --primary: 16 100% 55%;
+    --primary-foreground: 20 14.3% 4.1%;
+    --secondary: 25 32.6% 17.5%;
+    --secondary-foreground: 30 40% 98%;
+    --muted: 25 32.6% 17.5%;
+    --muted-foreground: 30 20.2% 65.1%;
+    --accent: 25 32.6% 17.5%;
+    --accent-foreground: 30 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 30 40% 98%;
+    --border: 25 32.6% 17.5%;
+    --input: 25 32.6% 17.5%;
+    --ring: 16 100% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-space-grotesk), system-ui, sans-serif;
+  }
+}
+
+/* Consistent mobile padding for all sections */
+@media (max-width: 768px) {
+  section {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
