@@ -8,20 +8,14 @@ services:
     labels:
       - traefik.enable=true
 
-      - traefik.http.routers.redirect-to-www.rule=Host(`dgjalic.com`)
-      - traefik.http.routers.redirect-to-www.entrypoints=websecure
-      - traefik.http.routers.redirect-to-www.tls.certresolver=myresolver
-      - traefik.http.routers.redirect-to-www.priority=10
-      - traefik.http.routers.redirect-to-www.middlewares=redirect-to-www
+      - traefik.http.routers.portfoliowebsite.rule=Host(`dgjalic.com`) || Host(`www.dgjalic.com`)
+      - traefik.http.services.portfoliowebsite.loadbalancer.server.port=80
+      - traefik.http.routers.portfoliowebsite.entrypoints=websecure
+      - traefik.http.routers.portfoliowebsite.tls.certresolver=myresolver
 
-      - traefik.http.middlewares.redirect-to-www.redirectregex.regex=^https://dgjalic\.com/(.*)
-      - traefik.http.middlewares.redirect-to-www.redirectregex.replacement=https://www.dgjalic.com/$${1}
-      - traefik.http.middlewares.redirect-to-www.redirectregex.permanent=true
-
-      - traefik.http.routers.frontend.rule=Host(`www.dgjalic.com`)
-      - traefik.http.routers.frontend.entrypoints=websecure
-      - traefik.http.routers.frontend.tls.certresolver=myresolver
-      - traefik.http.services.frontend.loadbalancer.server.port=80
+      - traefik.http.middlewares.mywwwredirect.redirectregex.regex=^https://www\.(.*)
+      - traefik.http.middlewares.mywwwredirect.redirectregex.replacement=https://$${1}
+      - traefik.http.routers.portfoliowebsite.middlewares=mywwwredirect
     restart: on-failure
 
 networks:
