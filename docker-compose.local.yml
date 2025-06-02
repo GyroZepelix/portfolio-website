@@ -1,0 +1,7 @@
+services:
+  frontend:
+    image: ghcr.io/gyrozepelix/portfolio-web:latest
+    build:
+      context: .
+    ports:
+      - 80:80
