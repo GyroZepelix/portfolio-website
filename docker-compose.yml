@@ -7,13 +7,15 @@ services:
       - traefik
     labels:
       - traefik.enable=true
-      - traefik.http.routers.portfolio-website.rule=Host(`dgjalic.com`) || Host(`www.dgjalic.com`)
-      - traefik.http.routers.portfolio-website.entrypoints=websecure
-      - traefik.http.routers.portfolio-website.tls.certresolver=myresolver
 
-      - traefik.http.middlewares.www-redirect.redirectregex.regex=^http://www.dgjalic.com/(.*)"
-      - traefik.http.middlewares.www-redirect.redirectregex.replacement=http://dgjalic.com/$${1}"
-      - traefik.http.routers.portfolio-website.middlewares=www-redirect"
+      - traefik.http.routers.portfoliowebsite.rule=Host(`dgjalic.com`) || Host(`www.dgjalic.com`)                                        
+      - traefik.http.services.portfoliowebsite.loadbalancer.server.port=80                                                               
+      - traefik.http.routers.portfoliowebsite.entrypoints=websecure                                                                      
+      - traefik.http.routers.portfoliowebsite.tls.certresolver=myresolver                                                                
+                                                                                                                                         
+      - traefik.http.middlewares.mywwwredirect.redirectregex.regex=^https://www\.(.*)                                                    
+      - traefik.http.middlewares.mywwwredirect.redirectregex.replacement=https://$${1}                                                   
+      - traefik.http.routers.portfoliowebsite.middlewares=mywwwredirect
     restart: on-failure
 
 networks:
