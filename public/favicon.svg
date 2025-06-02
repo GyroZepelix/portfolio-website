@@ -14,7 +14,6 @@
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -29,66 +28,38 @@
      inkscape:document-units="px"
      showguides="false"
      inkscape:zoom="4.7081527"
-     inkscape:cx="59.258911"
+     inkscape:cx="59.365109"
      inkscape:cy="61.91388"
-     inkscape:window-width="1920"
-     inkscape:window-height="1008"
+     inkscape:window-width="2560"
+     inkscape:window-height="1368"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs1">
-    <linearGradient
-       id="linearGradient4"
-       inkscape:collect="always">
-      <stop
-         style="stop-color:#ff4400;stop-opacity:1;"
-         offset="0.38854718"
-         id="stop4" />
-      <stop
-         style="stop-color:#ff4400;stop-opacity:0.1;"
-         offset="0.87921172"
-         id="stop5" />
-      <stop
-         style="stop-color:#ff4400;stop-opacity:0;"
-         offset="1"
-         id="stop6" />
-    </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4"
-       id="radialGradient5"
-       cx="60.525658"
-       cy="59.822277"
-       fx="60.525658"
-       fy="59.822277"
-       r="49.160828"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.1759259,0,0,1.1759259,-10.648032,-10.524289)" />
-  </defs>
+     id="defs1" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="fill:url(#radialGradient5);stroke:none;stroke-width:1.17593"
+       style="fill:#ff4400;fill-opacity:1;stroke:none;stroke-width:1.17593"
        id="path4"
-       cx="60.525658"
-       cy="59.822277"
+       cx="60.100864"
+       cy="60.034676"
        r="57.221527" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.7452px;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk';text-align:start;letter-spacing:-3.15465px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke:#000000;stroke-width:1.10258;stroke-dasharray:none"
-       x="16.397041"
-       y="78.82547"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:76.5468px;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk';text-align:start;letter-spacing:-2.91834px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:1.01999;stroke-dasharray:none"
+       x="20.35124"
+       y="78.208244"
        id="text1"
        transform="scale(0.86832871,1.1516376)"><tspan
          sodipodi:role="line"
          id="tspan1"
-         x="16.397041"
-         y="78.82547"
-         style="font-weight:bold;font-size:82.7452px;letter-spacing:-3.15465px;fill:#ffffff;stroke:#000000;stroke-width:1.10258;stroke-dasharray:none">DG</tspan></text>
+         x="20.35124"
+         y="78.208244"
+         style="font-weight:bold;font-size:76.5468px;letter-spacing:-2.91834px;fill:#ffffff;stroke:none;stroke-width:1.01999;stroke-dasharray:none">DG</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:80px;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke:#000000;stroke-width:0.1;stroke-dasharray:none"
