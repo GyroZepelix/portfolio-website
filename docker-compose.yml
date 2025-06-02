@@ -4,7 +4,7 @@ services:
     build:
       context: .
     networks:
-      - traefik-public
+      - traefik
     labels:
       - traefik.enable=true
 
