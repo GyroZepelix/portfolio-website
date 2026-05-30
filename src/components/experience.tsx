@@ -15,67 +15,33 @@ type Experience = {
 export default function Experience() {
   const experiences: Experience[] = [
     {
-      company: "AXIO",
-      position: "Founder & CEO",
-      period: "March 2026 - Present",
-      location: "Đakovo, Croatia",
+      company: "OG Consultancy Services",
+      position: "Backend Software Engineer",
+      period: "July 2023 - Present",
+      location: "Remote",
       summary:
-        "Leading software development initiatives at AXIO, focusing on building scalable backend systems and cloud-native architectures. Driving technical strategy and delivering high-quality solutions for clients across Europe.",
+        "Since transitioning to a full-time backend role, I've specialized in developing complex microservices architectures for major clients including BASF and DeutscheBahn. My work focuses on building scalable, mission-critical systems using Spring Boot, AWS, and Kubernetes, with particular emphasis on document processing services and international railway communication systems. I've developed custom algorithms for multi-language document analysis, implemented secure authentication solutions with Keycloak, and maintained comprehensive testing pipelines using WireMock and Cucumber. Throughout this role, I've consistently delivered high-availability solutions while contributing to Agile development processes and maintaining 100% system uptime.",
       technologies: [
+        "Spring Boot",
+        "AWS",
+        "Kubernetes",
         "Java",
-        "Spring Boot",
-        "AWS",
-        "Kubernetes",
-        "Docker",
-        "Microservices",
-        "System Architecture",
-      ],
-    },
-    {
-      company: "Deutsche Bahn",
-      position: "Backend Developer",
-      period: "December 2023 - February 2026",
-      location: "Frankfurt am Main, Germany",
-      summary:
-        "Developed and maintained Spring Boot services for the OSDM backend, facilitating international train ticketing across Europe. Implemented Keycloak authentication and deployed applications on AWS and Kubernetes, ensuring robust security and scalability. Employed TDD, WireMock, and Cucumber BDD to write comprehensive tests, enhancing system reliability across 15+ partner systems. Monitored production environments using Grafana and Graylog, adhering to SAFe Agile methodologies.",
-      technologies: [
-        "Spring Boot",
-        "AWS",
-        "Kubernetes",
         "Keycloak",
         "WireMock",
         "Cucumber",
-        "Grafana",
-        "Graylog",
-        "Docker",
-        "SAFe Agile",
-      ],
-    },
-    {
-      company: "OG Consultancy Services",
-      position: "Full-stack Developer",
-      period: "July 2023 - February 2026",
-      location: "Đakovo, Croatia",
-      summary:
-        "Developed backend systems and microservices for enterprise clients including BASF. Created a document extraction service using Spring Boot, AWS Textract, and Kafka, improving data extraction accuracy from 45% to 98% through custom algorithms. Mentored junior developers and students.",
-      technologies: [
-        "Spring Boot",
-        "AWS Textract",
-        "Kafka",
-        "Java",
         "Microservices",
         "Docker",
-        "Mentoring",
+        "Grafana",
       ],
     },
     {
       company: "OG Consultancy Services",
-      position: "Developer Internship",
-      period: "July 2022 - August 2022",
-      location: "Đakovo, Croatia",
+      position: "Software Developer Internship",
+      period: "July 2022 - July 2023",
+      location: "Remote",
       summary:
-        "Developed a full-stack cost-saving application from the ground up. Utilized React for frontend development and Spring Boot for backend services, ensuring robust functionality. Implemented Test-Driven Development (TDD) to enhance code quality and maintainability. Deployed the application on AWS using EKS and Docker, and established Grafana for monitoring.",
-      technologies: ["React", "Spring Boot", "AWS EKS", "Docker", "Grafana", "TDD"],
+        "During my internship at OG Consultancy Services, I designed and implemented user interfaces using React while architecting complete backend solutions with Spring Boot following Test-Driven Development principles. I gained hands-on experience with cloud deployment and DevOps practices, managing applications using AWS EKS, Docker containerization, and monitoring tools like Grafana. This role provided me with a strong foundation in full-stack development and introduced me to enterprise-level development practices and client project delivery.",
+      technologies: ["React", "Spring Boot", "AWS EKS", "Docker", "Grafana", "TDD", "JavaScript", "Java", "DevOps"],
     },
   ]
 
