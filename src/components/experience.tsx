@@ -18,7 +18,7 @@ export default function Experience() {
       company: "AXIO",
       position: "Founder & CEO",
       period: "March 2026 - Present",
-      location: "Remote",
+      location: "Đakovo, Croatia",
       summary:
         "Leading technical architecture and consulting for European enterprises, helping organizations design and deploy scalable cloud-native systems. I work directly with clients as a hands-on architect, guiding teams through microservices adoption, cloud migrations, and complex backend challenges across the European tech landscape.",
       technologies: [
@@ -35,7 +35,7 @@ export default function Experience() {
       company: "Deutsche Bahn",
       position: "Backend Developer",
       period: "December 2023 - February 2026",
-      location: "Frankfurt am Main, Germany",
+      location: "Remote (Frankfurt am Main, Germany)",
       summary:
         "Developed and maintained Spring Boot microservices for the OSDM platform, powering international train ticketing across 15+ European partner systems. Implemented Keycloak authentication, deployed on AWS and Kubernetes, and maintained comprehensive test suites using TDD, WireMock, and Cucumber BDD. Monitored production environments with Grafana and Graylog following SAFe Agile practices.",
       technologies: [
