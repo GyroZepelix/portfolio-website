@@ -38,7 +38,8 @@ export default function About() {
           >
             <div className="space-y-6">
               <p className="text-base md:text-lg leading-relaxed">
-                I'm Domagoj Gjalić, a <strong>Full-Stack Software Engineer</strong> specializing in backend architecture and microservices development. With over 3 years of professional
+                I'm Domagoj Gjalić, <strong>Founder & CEO at AXIO</strong> and a{" "}
+                <strong>Backend Engineer</strong> specializing in backend architecture and microservices development. With over 4 years of professional
                 experience, I've built my expertise through hands-on learning, personal projects, and solving real-world
                 challenges—architecting and delivering mission-critical applications for industry leaders like{" "}
                 <strong className="text-primary">BASF</strong> and{" "}

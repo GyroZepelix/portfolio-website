@@ -15,9 +15,46 @@ type Experience = {
 export default function Experience() {
   const experiences: Experience[] = [
     {
+      company: "AXIO",
+      position: "Founder & CEO",
+      period: "March 2026 - Present",
+      location: "Đakovo, Croatia",
+      summary:
+        "Leading technical architecture and consulting for European enterprises, helping organizations design and deploy scalable cloud-native systems. I work directly with clients as a hands-on architect, guiding teams through microservices adoption, cloud migrations, and complex backend challenges across the European tech landscape.",
+      technologies: [
+        "System Architecture",
+        "Cloud Consulting",
+        "Java",
+        "Spring Boot",
+        "AWS",
+        "Kubernetes",
+        "Microservices",
+      ],
+    },
+    {
+      company: "Deutsche Bahn",
+      position: "Backend Developer",
+      period: "December 2023 - February 2026",
+      location: "Frankfurt am Main, Germany",
+      summary:
+        "Developed and maintained Spring Boot microservices for the OSDM platform, powering international train ticketing across 15+ European partner systems. Implemented Keycloak authentication, deployed on AWS and Kubernetes, and maintained comprehensive test suites using TDD, WireMock, and Cucumber BDD. Monitored production environments with Grafana and Graylog following SAFe Agile practices.",
+      technologies: [
+        "Spring Boot",
+        "AWS",
+        "Kubernetes",
+        "Keycloak",
+        "WireMock",
+        "Cucumber BDD",
+        "Grafana",
+        "Graylog",
+        "Docker",
+        "SAFe Agile",
+      ],
+    },
+    {
       company: "OG Consultancy Services",
       position: "Backend Software Engineer",
-      period: "July 2023 - Present",
+      period: "July 2023 - February 2026",
       location: "Remote",
       summary:
         "Since transitioning to a full-time backend role, I've specialized in developing complex microservices architectures for major clients including BASF and DeutscheBahn. My work focuses on building scalable, mission-critical systems using Spring Boot, AWS, and Kubernetes, with particular emphasis on document processing services and international railway communication systems. I've developed custom algorithms for multi-language document analysis, implemented secure authentication solutions with Keycloak, and maintained comprehensive testing pipelines using WireMock and Cucumber. Throughout this role, I've consistently delivered high-availability solutions while contributing to Agile development processes and maintaining 100% system uptime.",
