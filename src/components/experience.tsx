@@ -18,7 +18,7 @@ export default function Experience() {
       company: "AXIO",
       position: "Founder & CEO",
       period: "March 2026 - Present",
-      location: "Đakovo, Croatia",
+      location: "Remote",
       summary:
         "Leading technical architecture and consulting for European enterprises, helping organizations design and deploy scalable cloud-native systems. I work directly with clients as a hands-on architect, guiding teams through microservices adoption, cloud migrations, and complex backend challenges across the European tech landscape.",
       technologies: [
@@ -44,7 +44,6 @@ export default function Experience() {
         "Kubernetes",
         "Keycloak",
         "WireMock",
-        "Cucumber BDD",
         "Grafana",
         "Graylog",
         "Docker",
