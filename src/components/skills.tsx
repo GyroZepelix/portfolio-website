@@ -16,12 +16,12 @@ export default function Skills() {
     {
       name: "Backend",
       icon: <Server className="h-5 w-5" />,
-      skills: ["Java", "Spring Boot", "Rust", "Go", "Microservices", "API Design"],
+      skills: ["Java", "Spring Boot", "Rust", "Go", "Microservices", "API Design", "Kafka"],
     },
     {
       name: "Frontend",
       icon: <Globe className="h-5 w-5" />,
-      skills: ["JavaScript", "TypeScript", "React", "HTML/CSS", "Responsive Design"],
+      skills: ["JavaScript", "TypeScript", "React", "Vue", "HTML/CSS", "Responsive Design"],
     },
     {
       name: "DevOps & Cloud",

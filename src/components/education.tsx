@@ -15,10 +15,10 @@ export default function Education() {
   const educationData: Education[] = [
     {
       title: "High School Diploma in Mechatronics",
-      institution: "Technical Education Program",
+      institution: "Srednja Strukovna Škola Antuna Horvata",
       year: "2023",
       type: "education",
-      description: "Specialized technical education focusing on mechanical and electronic systems integration",
+      description: "Mechatronics, Robotics, and Automation Engineering",
     },
     {
       title: "Certified SAFe 6 Scrum Master",
@@ -30,6 +30,18 @@ export default function Education() {
       title: "Junior Penetration Tester",
       institution: "TryHackMe",
       year: "2023",
+      type: "certification",
+    },
+    {
+      title: "Ultimate Rust Crash Course",
+      institution: "Udemy",
+      year: "2025",
+      type: "certification",
+    },
+    {
+      title: "Ultimate Rust 2: Intermediate Concepts",
+      institution: "Udemy",
+      year: "2025",
       type: "certification",
     },
   ]
