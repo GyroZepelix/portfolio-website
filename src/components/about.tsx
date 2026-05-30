@@ -38,20 +38,20 @@ export default function About() {
           >
             <div className="space-y-6">
               <p className="text-base md:text-lg leading-relaxed">
-                I'm Domagoj Gjalić, Founder & CEO at <strong className="text-primary">AXIO</strong> and a{" "}
-                <strong>Backend Engineer</strong> specializing in microservices and cloud-native systems
-                with Java and Spring Boot. With over 4 years of professional experience, I've built
-                enterprise applications for industry leaders like{" "}
-                <strong className="text-primary">Deutsche Bahn</strong> and{" "}
-                <strong className="text-primary">BASF</strong>, directly impacting millions of users
-                across Europe.
+                I'm Domagoj Gjalić, a <strong>Full-Stack Software Engineer</strong> specializing in backend architecture and microservices development. With over 3 years of professional
+                experience, I've built my expertise through hands-on learning, personal projects, and solving real-world
+                challenges—architecting and delivering mission-critical applications for industry leaders like{" "}
+                <strong className="text-primary">BASF</strong> and{" "}
+                <strong className="text-primary">DeutscheBahn</strong> that directly impact millions of users across
+                Europe.
               </p>
               <p className="text-base md:text-lg leading-relaxed">
-                My work spans international railway communication systems at Deutsche Bahn in Frankfurt,
-                document extraction services using <strong>AWS Textract</strong> and{" "}
-                <strong>Kafka</strong> (improving accuracy from 45% to 98%), and building
-                mission-critical microservices with <strong>Spring Boot</strong>,{" "}
-                <strong>AWS</strong>, and <strong>Kubernetes</strong>.
+                My technical expertise centers on <strong>Java</strong>, <strong>JavaScript</strong>,{" "}
+                <strong>Rust</strong>, and <strong>Go</strong>, with deep proficiency in <strong>Spring Boot</strong>,{" "}
+                <strong>React</strong>, and cloud-native technologies including <strong>AWS</strong>,{" "}
+                <strong>Kubernetes</strong>, and <strong>Docker</strong>. I thrive on solving complex problems—from
+                building document processing systems that handle multiple languages to creating algorithms that make
+                sense of messy, unstructured data.
               </p>
               <p className="text-base md:text-lg leading-relaxed">
                 Whether I'm architecting scalable backend systems or tackling complex algorithmic challenges, I approach
